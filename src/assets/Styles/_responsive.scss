@@ -97,13 +97,15 @@
     }
     .info-faculty-wrapper {
         margin-left: 0;
+        height: 400px;
     }
     .info-faculty-wrapper ul li {
         width: 100%;
     }
     .info-faculty-wrapper ul {
-        max-height: none;
         flex-wrap: nowrap;
+        max-height: 350px;
+        overflow-y: scroll;
     }
     .arrow-icon-right {
         right: -20px; 
