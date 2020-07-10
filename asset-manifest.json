@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/SeaScholarshipPage/static/css/main.e587642c.chunk.css",
+    "main.js": "/SeaScholarshipPage/static/js/main.77c50c8e.chunk.js",
+    "main.js.map": "/SeaScholarshipPage/static/js/main.77c50c8e.chunk.js.map",
+    "runtime-main.js": "/SeaScholarshipPage/static/js/runtime-main.d4ccf210.js",
+    "runtime-main.js.map": "/SeaScholarshipPage/static/js/runtime-main.d4ccf210.js.map",
+    "static/js/2.29f9c0b0.chunk.js": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js",
+    "static/js/2.29f9c0b0.chunk.js.map": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.map",
+    "index.html": "/SeaScholarshipPage/index.html",
+    "precache-manifest.3ac7bed6807637d129da7358e37866d8.js": "/SeaScholarshipPage/precache-manifest.3ac7bed6807637d129da7358e37866d8.js",
+    "service-worker.js": "/SeaScholarshipPage/service-worker.js",
+    "static/css/main.e587642c.chunk.css.map": "/SeaScholarshipPage/static/css/main.e587642c.chunk.css.map",
+    "static/js/2.29f9c0b0.chunk.js.LICENSE.txt": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/SeaScholarshipPage/static/media/AvenirLTStd-Roman.b1d7c6e0.otf",
+    "static/media/BG-Apply.jpg": "/SeaScholarshipPage/static/media/BG-Apply.7e6b2f34.jpg",
+    "static/media/BG-Foot.jpg": "/SeaScholarshipPage/static/media/BG-Foot.46aa0c08.jpg",
+    "static/media/BG-Head.jpg": "/SeaScholarshipPage/static/media/BG-Head.e5b741e4.jpg",
+    "static/media/Logo_ITB.png": "/SeaScholarshipPage/static/media/Logo_ITB.265f9867.png",
+    "static/media/Sea-Undergraduate-Logo.png": "/SeaScholarshipPage/static/media/Sea-Undergraduate-Logo.f3c382b9.png",
+    "static/media/Timeline-1.png": "/SeaScholarshipPage/static/media/Timeline-1.4f77d93f.png",
+    "static/media/Timeline-2.png": "/SeaScholarshipPage/static/media/Timeline-2.932ea861.png",
+    "static/media/Timeline-3.png": "/SeaScholarshipPage/static/media/Timeline-3.7440470f.png",
+    "static/media/Timeline-4.png": "/SeaScholarshipPage/static/media/Timeline-4.eb221087.png",
+    "static/media/icon-freshmen.png": "/SeaScholarshipPage/static/media/icon-freshmen.d66d9ccc.png",
+    "static/media/icon-graduate.png": "/SeaScholarshipPage/static/media/icon-graduate.a2e333c7.png",
+    "static/media/icon-senior.png": "/SeaScholarshipPage/static/media/icon-senior.9fa8151d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4ccf210.js",
+    "static/js/2.29f9c0b0.chunk.js",
+    "static/css/main.e587642c.chunk.css",
+    "static/js/main.77c50c8e.chunk.js"
+  ]
+}
