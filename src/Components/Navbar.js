@@ -19,7 +19,7 @@ function Navbar() {
                     <a href='#'>| FAQ</a>
                 </li>
             </ul>
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
         </div>
     )
 }
