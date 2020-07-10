@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SeaScholarshipPage/static/css/main.b142c9d0.chunk.css",
+    "main.css": "/SeaScholarshipPage/static/css/main.7f383358.chunk.css",
     "main.js": "/SeaScholarshipPage/static/js/main.fe9fe6f9.chunk.js",
     "main.js.map": "/SeaScholarshipPage/static/js/main.fe9fe6f9.chunk.js.map",
     "runtime-main.js": "/SeaScholarshipPage/static/js/runtime-main.d4ccf210.js",
@@ -8,9 +8,9 @@
     "static/js/2.29f9c0b0.chunk.js": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js",
     "static/js/2.29f9c0b0.chunk.js.map": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.map",
     "index.html": "/SeaScholarshipPage/index.html",
-    "precache-manifest.404382bf92098e4d6ce79a86dfa3360d.js": "/SeaScholarshipPage/precache-manifest.404382bf92098e4d6ce79a86dfa3360d.js",
+    "precache-manifest.74555d14eff3c9cca6544e73a4df4631.js": "/SeaScholarshipPage/precache-manifest.74555d14eff3c9cca6544e73a4df4631.js",
     "service-worker.js": "/SeaScholarshipPage/service-worker.js",
-    "static/css/main.b142c9d0.chunk.css.map": "/SeaScholarshipPage/static/css/main.b142c9d0.chunk.css.map",
+    "static/css/main.7f383358.chunk.css.map": "/SeaScholarshipPage/static/css/main.7f383358.chunk.css.map",
     "static/js/2.29f9c0b0.chunk.js.LICENSE.txt": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/SeaScholarshipPage/static/media/AvenirLTStd-Roman.b1d7c6e0.otf",
     "static/media/BG-Apply.jpg": "/SeaScholarshipPage/static/media/BG-Apply.7e6b2f34.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.d4ccf210.js",
     "static/js/2.29f9c0b0.chunk.js",
-    "static/css/main.b142c9d0.chunk.css",
+    "static/css/main.7f383358.chunk.css",
     "static/js/main.fe9fe6f9.chunk.js"
   ]
 }
