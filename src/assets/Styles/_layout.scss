@@ -204,6 +204,10 @@ body {
     height: fit-content; 
     display: flex
 }
+.testimonial-info {
+    display: flex;
+    align-items: center;
+}
 .testimonial-image {
     width: 300px;
     height: 300px;

@@ -27,7 +27,7 @@ function Testimonial({testimonyList}) {
             <div className="title">Testimonials</div>
             <div className="testimonial-wrapper">
                 <i onClick={handlePrev} className="fas fa-caret-left arrow-icon-left"/>
-                <div className="testimonial-wrapper" >
+                <div className="testimonial-info" >
                     <img className="testimonial-image" src={testimonyList && testimonyList[listSelected].image}/>
                     <div className="testimonial-text-wrapper">
                     <p className="testimonial-text-desc">{testimonyList && testimonyList[listSelected].story}</p>

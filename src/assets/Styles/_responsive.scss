@@ -125,6 +125,7 @@
     }
     .testimonial-text-wrapper {
         margin-left: 0;
+        height: 500px;
     }
     #testimonial {
         font-size: 1.5em;
@@ -155,5 +156,15 @@
         height: 20px;
         width: 0.25rem;
         margin: 5px;
+    }
+    #partner-university {
+        padding-bottom: 50px;
+    }
+    .testimonial-text-desc {
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .testimonial-info {
+        flex-direction: column;
     }
 }
