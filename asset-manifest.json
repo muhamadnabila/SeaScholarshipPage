@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SeaScholarshipPage/static/css/main.e587642c.chunk.css",
-    "main.js": "/SeaScholarshipPage/static/js/main.77c50c8e.chunk.js",
-    "main.js.map": "/SeaScholarshipPage/static/js/main.77c50c8e.chunk.js.map",
+    "main.js": "/SeaScholarshipPage/static/js/main.d61a90b6.chunk.js",
+    "main.js.map": "/SeaScholarshipPage/static/js/main.d61a90b6.chunk.js.map",
     "runtime-main.js": "/SeaScholarshipPage/static/js/runtime-main.d4ccf210.js",
     "runtime-main.js.map": "/SeaScholarshipPage/static/js/runtime-main.d4ccf210.js.map",
     "static/js/2.29f9c0b0.chunk.js": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js",
     "static/js/2.29f9c0b0.chunk.js.map": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.map",
     "index.html": "/SeaScholarshipPage/index.html",
-    "precache-manifest.3ac7bed6807637d129da7358e37866d8.js": "/SeaScholarshipPage/precache-manifest.3ac7bed6807637d129da7358e37866d8.js",
+    "precache-manifest.dc671fba59d21f2ed4005f9928916de8.js": "/SeaScholarshipPage/precache-manifest.dc671fba59d21f2ed4005f9928916de8.js",
     "service-worker.js": "/SeaScholarshipPage/service-worker.js",
     "static/css/main.e587642c.chunk.css.map": "/SeaScholarshipPage/static/css/main.e587642c.chunk.css.map",
     "static/js/2.29f9c0b0.chunk.js.LICENSE.txt": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.d4ccf210.js",
     "static/js/2.29f9c0b0.chunk.js",
     "static/css/main.e587642c.chunk.css",
-    "static/js/main.77c50c8e.chunk.js"
+    "static/js/main.d61a90b6.chunk.js"
   ]
 }

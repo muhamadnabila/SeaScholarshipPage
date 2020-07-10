@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SeaScholarshipPage/precache-manifest.3ac7bed6807637d129da7358e37866d8.js"
+  "/SeaScholarshipPage/precache-manifest.dc671fba59d21f2ed4005f9928916de8.js"
 );
 
 self.addEventListener('message', (event) => {
