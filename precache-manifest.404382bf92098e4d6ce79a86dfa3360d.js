@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9ee309e1008336a913c0b443956e031",
+    "revision": "3430d6cfb09c95833b0052f069f18dd1",
     "url": "/SeaScholarshipPage/index.html"
   },
   {
-    "revision": "5c791e8b02ce81556e88",
-    "url": "/SeaScholarshipPage/static/css/main.e587642c.chunk.css"
+    "revision": "be79c51611c3ff975db0",
+    "url": "/SeaScholarshipPage/static/css/main.b142c9d0.chunk.css"
   },
   {
     "revision": "ce0fe96c9d4815555d61",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SeaScholarshipPage/static/js/2.29f9c0b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c791e8b02ce81556e88",
-    "url": "/SeaScholarshipPage/static/js/main.d61a90b6.chunk.js"
+    "revision": "be79c51611c3ff975db0",
+    "url": "/SeaScholarshipPage/static/js/main.fe9fe6f9.chunk.js"
   },
   {
     "revision": "0e34bf9c73e24093a16e",
