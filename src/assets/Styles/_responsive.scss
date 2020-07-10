@@ -52,6 +52,13 @@
         height: 150px;
         width: 150px;
     }
+    .testimonial-wrapper {
+        height: 250px;
+    }
+    .testimonial-text-desc {
+        max-height: 200px;
+        overflow-y: scroll;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -163,6 +170,9 @@
     .testimonial-text-desc {
         max-height: 400px;
         overflow-y: scroll;
+    }
+    .testimonial-wrapper {
+        height: fit-content;
     }
     .testimonial-info {
         flex-direction: column;

@@ -220,6 +220,8 @@ body {
 }
 .testimonial-text-desc {
     font-style: italic;
+    max-height: 300px;
+    overflow-y: auto;
 }
 .testimonial-text-person-info {
     font-family: $font-avenir-black;
