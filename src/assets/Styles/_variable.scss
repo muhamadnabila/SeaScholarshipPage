@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'AEH';
+    src: url('../Font/AEH.ttf');
+}
+@font-face {
+    font-family: 'Avenir LT STD Roman';
+    src: url('../Font/AvenirLTStd-Roman.otf');
+}
+@font-face {
+    font-family: 'Avenir LT 95 Black';
+    src: url('../Font/Avenir\ LT\ 95\ Black.ttf');
+}
+
+$font-aeh: 'AEH';
+$font-avenir-roman: 'Avenir LT STD Roman';
+$font-avenir-black: 'Avenir LT 95 Black';
+$font-white: #fff;
+$padding-fit: 0 12vw;
+$bg-grey: #f6f6f6;
+$font-blue: #010184;
+$font-grey: #484848;
+
+%arrow-icon {
+    position: absolute; 
+    font-size: 100px;
+    cursor: pointer;
+}
+%unorder-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    max-height: 450px; 
+    list-style: none;
+    padding: 0;
+    font-size: 0.85em;
+}
+%unorder-list-item {
+    line-height: 1.5rem;
+    text-indent: -1.85rem
+}
+
+%unorder-list-item-before {
+    content: '-';
+    margin-left: 1rem;
+    margin-right: 0.45rem;
+}
+%timeline-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+%timeline-width {
+    width: 200px
+}
+%slideshow-wrapper {
+    display: flex; 
+    align-items: center; 
+    position: relative; 
+}
+%background-image {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}

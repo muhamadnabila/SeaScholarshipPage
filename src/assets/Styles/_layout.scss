@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box
+}
+:root {
+    font-family: $font-avenir-roman;
+    color: #666;
+    font-size: 1.4vw;
+}
+body {
+    margin: 0;
+}
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 12vw 10px 12vw;
+}
+.sea-logo {
+    img {
+        height: 4vw
+    }
+}
+.navbar {
+    display: flex;
+    list-style: none;
+}
+.fa-bars {
+    display: none;
+}
+.navbar {
+    li {
+        padding-right: 5px;
+        a {
+            font-weight: 700;
+            letter-spacing:0.025em;
+            font-size: 1.25rem;
+            color: $font-grey;
+            text-decoration: none;
+        }
+    }
+    li:last-child{
+        padding-right: 0;
+    }
+}
+#header {
+    @extend %background-image;
+    background: url(../Slicing/BG-Head.jpg);
+    height: 800px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 150px 12vw;
+    font-weight: 700;
+}
+.header-text-wrapper {
+    width: 55%
+}
+.header-title {
+    color: $font-white;
+}
+.header-desc {
+    margin:1em 2em 5% 0;
+    text-align: justify;
+    font-size: 1em;
+    color: $font-white;
+}
+.header-image{
+    height: 80%;
+    width: 45%;
+}
+#program {
+    padding: $padding-fit;
+    padding-bottom: 100px;
+    background-color: $bg-grey
+}
+.title {
+    color: $font-blue;
+    font-family: $font-avenir-black;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+.program-description {
+    line-height: 1.75rem;
+    text-align: justify;
+}
+.program-card {
+    width: 500px; 
+    box-shadow: 0 0 20px 6px #b4b4b4; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    padding: 50px
+}
+.card-wrapper {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 50px
+}
+#program .program-card .title {
+    font-size: 1.15rem;
+    padding: 1rem 0.5rem;
+}
+#partner-university {
+    padding: $padding-fit;
+    padding-bottom: 100px;
+    width: 100%
+}
+.info-wrapper {
+    @extend %slideshow-wrapper;
+    height: 500px;
+}
+.info-university-wrapper {
+    height: fit-content; 
+    width:100%; 
+    display: flex
+}
+.arrow-icon-right {
+    @extend %arrow-icon;
+    right: -80px; 
+}
+.arrow-icon-left {
+    @extend %arrow-icon;
+    left: -80px; 
+}
+.university-logo {
+    width: 300px; 
+    height: 300px
+}
+.info-faculty-wrapper {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 1.5em;
+}
+.university-name {
+    font-size: 1.5em;
+}
+.info-faculty-wrapper ul {
+    @extend %unorder-list;
+}
+.info-faculty-wrapper ul li {
+    @extend %unorder-list-item;
+    margin-right: 40px;
+}
+.info-faculty-wrapper ul li:before {
+    @extend %unorder-list-item-before;
+}
+.program-card ul {
+    @extend %unorder-list;
+    padding: 0 1rem
+}
+.program-card ul li:before{
+    @extend %unorder-list-item-before;
+}
+.program-card ul li{
+    @extend %unorder-list-item;
+}
+#timeline {
+    padding: $padding-fit;
+    background-color: $bg-grey;
+    font-size: 1rem;
+}
+.timeline-title-wrapper {
+    @extend %timeline-wrapper;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.timeline-title {
+    @extend %timeline-width;
+    color: $font-blue;
+    font-weight: 700;
+    text-align: center;
+}
+.timeline-image-wrapper {
+    @extend %timeline-wrapper;
+    align-items: center;
+}
+.timeline-date-wrapper {
+    @extend %timeline-wrapper;
+}
+.timeline-icon {
+    @extend %timeline-width;
+
+}
+.timeline-date {
+    @extend %timeline-width;
+    text-align: center;
+    font-size: 0.75em;
+}
+.grey-line {
+    height: 0.25rem; 
+    width: 50px;
+    background-color: #ddd
+}
+#testimonial {
+    padding: $padding-fit;
+    font-size: 0.8em;
+    line-height: 1.8em;
+}
+.testimonial-wrapper {
+    @extend %slideshow-wrapper;
+    height: 300px
+}
+.testimonial-wrapper {
+    height: fit-content; 
+    display: flex
+}
+.testimonial-image {
+    width: 300px;
+    height: 300px;
+}
+.testimonial-text-wrapper {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left: 50px
+}
+.testimonial-text-desc {
+    font-style: italic;
+}
+.testimonial-text-person-info {
+    font-family: $font-avenir-black;
+}
+.announcement-wrapper {
+    @extend %background-image;
+    background-image: url(../Slicing/BG-Apply.jpg); 
+    height: 800px;
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column
+}
+.announcement-text {
+    color: $font-white;
+    font-size: 3vw;
+    font-family: $font-avenir-black;
+    padding-bottom: .3em;
+}
+#FAQ {
+    padding: $padding-fit;
+}
+#FAQ p {
+    line-height: 1.75rem;
+    margin: 0;
+    padding: 0;
+}
+#FAQ strong {
+    color: $font-grey;
+}
+#footer {
+    @extend %background-image;
+    background-image: url(../Slicing/BG-Foot.jpg);
+    height: 250px;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    flex-direction: column;
+    color: $font-white;
+}
+#footer span {
+    font-size: 0.75rem;
+    margin-top: 0.4em;
+}
+#footer a{
+    color: $font-white;
+}

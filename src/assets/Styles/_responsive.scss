@@ -1,0 +1,157 @@
+@media all and (max-width: 1000px) {
+    :root {
+        font-size: 2vw;
+    }
+    #header {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-image {
+        width: 80%
+    }
+    .header-title{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .header-desc {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .header-text-wrapper {
+        width: 100%
+    }
+    .program-card {
+        width: 280px;
+    }
+    .program-card img {
+        height: 200px;
+    }
+    .university-logo {
+        width: 200px;
+        height: 200px;
+        margin: 10px auto;
+    }
+    .info-university-wrapper {
+        flex-direction: column;
+    }
+    .university-name {
+        text-align: center;
+    }
+    .info-faculty-wrapper ul {
+        max-height: 300px; 
+    }
+    .info-faculty-wrapper ul li {
+        width: 50%;
+        font-size: 1em;
+    }
+    .timeline-icon, .timeline-title, .timeline-date {
+        width: 100px
+    }
+    .testimonial-image {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    :root {
+        font-size: 3vw;
+    }
+    .navbar {
+        display: none;
+    }
+    .navbar-wrapper{
+        align-items: center;
+    }
+    .sea-logo img {
+        height: 8vw;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 24px;
+    }
+    #header {
+        height: 500px;
+    }
+    .header-image {
+        width: 70%;
+        height: 90%;
+    }
+    .header-desc {
+        margin: 0
+    }
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .program-card:first-child {
+        margin-bottom: 15px;
+    }
+    .program-card img {
+        height: 100px;
+    }
+    .university-logo {
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+    }
+    .info-faculty-wrapper {
+        margin-left: 0;
+    }
+    .info-faculty-wrapper ul li {
+        width: 100%;
+    }
+    .info-faculty-wrapper ul {
+        max-height: none;
+        flex-wrap: nowrap;
+    }
+    .arrow-icon-right {
+        right: -20px; 
+        font-size: 60px;
+    }
+    .arrow-icon-left {
+        left: -20px; 
+        font-size: 60px;
+    }
+    .info-faculty-wrapper ul li {
+        text-indent: 0;
+    }
+    .testimonial-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .testimonial-text-wrapper {
+        margin-left: 0;
+    }
+    #testimonial {
+        font-size: 1.5em;
+    }
+    .announcement-wrapper {
+        height: 300px;
+    }
+    #timeline {
+        padding: 10px 12vw
+    }
+    .timeline-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .timeline-icon, .timeline-title, .timeline-date {
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .timeline-date {
+        margin: 0
+    }
+    .timeline-title-wrapper, .timeline-image-wrapper, .timeline-date-wrapper {
+        flex-direction: column;
+    }
+    .grey-line {
+        height: 20px;
+        width: 0.25rem;
+        margin: 5px;
+    }
+}
